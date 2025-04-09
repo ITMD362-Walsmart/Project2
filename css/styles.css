@@ -30,3 +30,9 @@ h3 {
   max-height: 250px;
   border-radius: 20px;
 }
+
+.slider {
+  max-width: 510px;
+  align-items: center;
+  margin: auto;
+}
