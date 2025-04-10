@@ -1,4 +1,113 @@
+.product {
+  text-align: center;
+}
+
+.productImg {
+  display: block;
+  margin: 0 auto;
+  max-width: 250px;
+  max-height: 250px;
+  border-radius: 20px;
+}
+.container{
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
+  padding-bottom: auto;
+}
+
+.banner-logo{
+  height:30px;
+  width:auto;
+}
+
+.top-banner{
+  background-color: #005b8a;
+  color:white;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.banner-flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.banner-left{
+  height: 40px;
+}
+
+.banner-center input{
+  width: 60%;
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+  font-size: 1rem;
+}
+
+.banner-right {
+  display: flex;
+  align-items: center;
+}
+  
+.banner-link {
+  display: flex;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+}
+  
+.banner-link img {
+  height: 20px;
+  margin-right: 8px;
+}
+
 /* homepage styles */
+
+
+form {
+  box-sizing: border-box;
+  margin: auto;
+  max-width: 400px;
+  padding: 10px;
+}
+
+label {
+  font-size: 2rem;
+  color: #333;
+  margin: 15px;
+  padding: 20px; 
+}
+
+input {
+  padding: 10px;
+  margin: 20px; 
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 100%;
+}
+
+button {
+  padding: 10px;
+  margin: 20px; 
+  background-color: #ffc220;
+  color: black;
+  font-size: 1.3rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
 h3 {
   text-align: center;
   font-size: 2.225rem;
@@ -18,11 +127,20 @@ h3 {
   gap: 10px;
   margin: 0 auto;
 }
-
-.product {
+ /* Footer */
+.site-footer {
+  width: 100%;
+  background-color: #005b8a;
+  color: white;
   text-align: center;
+  margin-top: 85px;
+  padding: 85px;
+  position:relative; 
 }
-
+  
+.site-footer p {
+  font-size: 1rem;
+}
 .productImg {
   display: block;
   margin: 0 auto;
@@ -47,3 +165,4 @@ h3 {
   object-fit: cover;
   margin: 0 10px;
 }
+
