@@ -68,11 +68,12 @@
 }
  /* Footer */
 .site-footer {
+  width: 100%;
   background-color: #005b8a;
   color: white;
   text-align: center;
   margin-top: 85px;
-  padding: 100px;
+  padding: 85px;
   position:relative; 
 }
   
@@ -82,6 +83,9 @@
 
 
 /* homepage styles */
+h1 (
+  text-align: center;
+)
 
 form {
   box-sizing: border-box;
