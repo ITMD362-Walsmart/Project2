@@ -141,3 +141,28 @@ h3 {
 .site-footer p {
   font-size: 1rem;
 }
+.productImg {
+  display: block;
+  margin: 0 auto;
+  width: 250px;
+  height: 250px;
+  border-radius: 20px;
+  padding: auto
+}
+
+#slider {
+  max-width: 510px;
+  margin: 0 auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.sliderImg {
+  width: 510px;
+  height: 255px;
+  object-fit: cover;
+  margin: 0 10px;
+}
+
