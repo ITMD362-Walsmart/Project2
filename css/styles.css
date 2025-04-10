@@ -1,3 +1,18 @@
+<<<<<<< HEAD
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+}
+
+body{
+  font-family: 'Inter', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.5;
+}
+
+=======
 .product {
   text-align: center;
 }
@@ -9,6 +24,7 @@
   max-height: 250px;
   border-radius: 20px;
 }
+>>>>>>> 3c4124ae9ade35286b6fa472ff9253c14b87ccba
 .container{
   width: 90%;
   margin: 0 auto;
@@ -69,6 +85,24 @@
 
 /* homepage styles */
 
+<<<<<<< HEAD
+#slider {
+  max-width: 510px;
+  margin-top: 150px;
+  margin: 0 auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  padding-bottom: 25px;
+}
+
+.sliderImg {
+  width: 510px;
+  height: 255px;
+  object-fit: cover;
+  margin: 0 10px;
+=======
 
 form {
   box-sizing: border-box;
@@ -106,6 +140,7 @@ button {
 
 button:hover {
   background-color: #45a049;
+>>>>>>> 3c4124ae9ade35286b6fa472ff9253c14b87ccba
 }
 
 h3 {
@@ -116,9 +151,10 @@ h3 {
 #productBody {
   border: 3px solid #0053E2;
   border-radius: 20px;
+  background-color: white;
   margin: 0 auto;
   width: 65rem;
-  top: 50px;
+  padding: 20px;
 }
 
 #products {
@@ -147,17 +183,27 @@ h3 {
   width: 250px;
   height: 250px;
   border-radius: 20px;
-  padding: auto
 }
 
-#slider {
-  max-width: 510px;
-  margin: 0 auto;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
+.product p {
+  margin: 5px 0;
 }
+
+  /* Footer */
+.site-footer {
+  background-color: #005b8a;
+  color: white;
+  padding: 30px ;
+  text-align: center;
+  margin-top: 85px;
+  position:relative;
+}
+<<<<<<< HEAD
+  
+.site-footer p {
+  font-size: 1rem;
+}
+=======
 
 .sliderImg {
   width: 510px;
@@ -166,3 +212,4 @@ h3 {
   margin: 0 10px;
 }
 
+>>>>>>> 3c4124ae9ade35286b6fa472ff9253c14b87ccba
