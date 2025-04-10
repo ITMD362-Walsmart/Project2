@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
   margin: 0;
   padding: 0;
@@ -11,6 +12,19 @@ body{
   line-height: 1.5;
 }
 
+=======
+.product {
+  text-align: center;
+}
+
+.productImg {
+  display: block;
+  margin: 0 auto;
+  max-width: 250px;
+  max-height: 250px;
+  border-radius: 20px;
+}
+>>>>>>> 3c4124ae9ade35286b6fa472ff9253c14b87ccba
 .container{
   width: 90%;
   margin: 0 auto;
@@ -71,6 +85,7 @@ body{
 
 /* homepage styles */
 
+<<<<<<< HEAD
 #slider {
   max-width: 510px;
   margin-top: 150px;
@@ -87,6 +102,45 @@ body{
   height: 255px;
   object-fit: cover;
   margin: 0 10px;
+=======
+
+form {
+  box-sizing: border-box;
+  margin: auto;
+  max-width: 400px;
+  padding: 10px;
+}
+
+label {
+  font-size: 2rem;
+  color: #333;
+  margin: 15px;
+  padding: 20px; 
+}
+
+input {
+  padding: 10px;
+  margin: 20px; 
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 100%;
+}
+
+button {
+  padding: 10px;
+  margin: 20px; 
+  background-color: #ffc220;
+  color: black;
+  font-size: 1.3rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+>>>>>>> 3c4124ae9ade35286b6fa472ff9253c14b87ccba
 }
 
 h3 {
@@ -109,11 +163,20 @@ h3 {
   gap: 10px;
   margin: 0 auto;
 }
-
-.product {
+ /* Footer */
+.site-footer {
+  width: 100%;
+  background-color: #005b8a;
+  color: white;
   text-align: center;
+  margin-top: 85px;
+  padding: 85px;
+  position:relative; 
 }
-
+  
+.site-footer p {
+  font-size: 1rem;
+}
 .productImg {
   display: block;
   margin: 0 auto;
@@ -135,7 +198,18 @@ h3 {
   margin-top: 85px;
   position:relative;
 }
+<<<<<<< HEAD
   
 .site-footer p {
   font-size: 1rem;
 }
+=======
+
+.sliderImg {
+  width: 510px;
+  height: 255px;
+  object-fit: cover;
+  margin: 0 10px;
+}
+
+>>>>>>> 3c4124ae9ade35286b6fa472ff9253c14b87ccba
