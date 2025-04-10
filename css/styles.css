@@ -66,6 +66,20 @@
   height: 20px;
   margin-right: 8px;
 }
+ /* Footer */
+.site-footer {
+  background-color: #005b8a;
+  color: white;
+  text-align: center;
+  margin-top: 85px;
+  padding: 100px;
+  position:relative; 
+}
+  
+.site-footer p {
+  font-size: 1rem;
+}
+
 
 /* homepage styles */
 
@@ -125,16 +139,4 @@ h3 {
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
   margin: 0 auto;
-}
- /* Footer */
-.site-footer {
-  background-color: #005b8a;
-  color: white;
-  text-align: center;
-  margin-top: 85px;
-  position:relative; 
-}
-  
-.site-footer p {
-  font-size: 1rem;
 }
