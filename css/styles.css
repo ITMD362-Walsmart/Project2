@@ -100,44 +100,6 @@ body{
   margin: 0 10px;
 }
 
-form {
-  box-sizing: border-box;
-  margin: auto;
-  max-width: 400px;
-  padding: 10px;
-}
-
-label {
-  font-size: 2rem;
-  color: #333;
-  margin: 15px;
-  padding: 20px; 
-}
-
-input {
-  padding: 10px;
-  margin: 20px; 
-  font-size: 1rem;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  width: 100%;
-}
-
-button {
-  padding: 10px;
-  margin: 20px; 
-  background-color: #ffc220;
-  color: black;
-  font-size: 1.3rem;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-button:hover {
-  background-color: #45a049;
-}
-
 h3 {
   text-align: center;
   font-size: 2.225rem;
@@ -158,6 +120,45 @@ h3 {
   gap: 10px;
   margin: 0 auto;
 }
+
+form {
+   box-sizing: border-box;
+   margin: auto;
+   max-width: 400px;
+   padding: 10px;
+ }
+ 
+ label {
+   font-size: 2rem;
+   color: #333;
+   margin: 15px;
+   padding: 20px; 
+ }
+ 
+ input {
+   padding: 10px;
+   margin: 20px; 
+   font-size: 1rem;
+   border: 1px solid #ddd;
+   border-radius: 4px;
+   width: 100%;
+ }
+ 
+ button {
+   padding: 10px;
+   margin: 20px; 
+   background-color: #ffc220;
+   color: black;
+   font-size: 1.3rem;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+ }
+ 
+ button:hover {
+   background-color: #45a049;
+ }
+ 
  /* Footer */
 .site-footer {
   width: 100%;
