@@ -204,36 +204,8 @@ html, body {
   .checkout-btn:hover {
     background-color: #005b8a;
   }
-  
-  /* Footer */
-  .site-footer {
-    background-color: #005b8a;
-    color: white;
-    padding: 20px ;
-    text-align: center;
-    margin-top: 20px;
-    position:relative;
-    margin-top: 50px;
-    
-  }
-  
-  .site-footer p {
-    font-size: 1rem;
-  }
 
 /* NEW CSS FROM STYLES.CSS */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing:border-box;
-}
-
-body{
-  font-family: 'Inter', sans-serif;
-  background-color: #f4f4f4;
-  color: #333;
-  line-height: 1.5;
-}
 
 .product {
   text-align: center;
@@ -247,62 +219,10 @@ body{
   border-radius: 20px;
 }
 
-.container{
+.container {
   width: 90%;
   margin: 0 auto;
   position: relative;
-  padding-bottom: auto;
-}
-
-.banner-logo{
-  height:30px;
-  width:auto;
-}
-
-.top-banner{
-  background-color: #005b8a;
-  color:white;
-  padding: 10px 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.banner-flex{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-}
-
-.banner-left{
-  height: 40px;
-}
-
-.banner-center input{
-  width: 60%;
-  padding: 8px;
-  border-radius: 5px;
-  border: none;
-  font-size: 1rem;
-}
-
-.banner-right {
-  display: flex;
-  align-items: center;
-}
-  
-.banner-link {
-  display: flex;
-  align-items: center;
-  color: white;
-  text-decoration: none;
-  margin-left: 20px;
-}
-  
-.banner-link img {
-  height: 20px;
-  margin-right: 8px;
 }
 
 /* homepage styles */
@@ -382,48 +302,21 @@ form {
  button:hover {
    background-color: #45a049;
  }
- 
- /* Footer */
+
+  /* Footer */
 .site-footer {
-  width: 100%;
   background-color: #005b8a;
   color: white;
+  padding: 20px ;
   text-align: center;
-  margin-top: 85px;
-  padding: 85px;
-  position:relative; 
+  margin-top: 20px;
+  position:relative;
+  margin-top: 50px;
 }
   
 .site-footer p {
   font-size: 1rem;
 }
-.productImg {
-  display: block;
-  margin: 0 auto;
-  width: 250px;
-  height: 250px;
-  border-radius: 20px;
-}
-
-.product p {
-  margin: 5px 0;
-}
-
-  /* Footer */
-  .site-footer {
-    background-color: #005b8a;
-    color: white;
-    padding: 20px ;
-    text-align: center;
-    margin-top: 20px;
-    position:relative;
-    margin-top: 50px;
-    
-  }
-  
-  .site-footer p {
-    font-size: 1rem;
-  }
 
   
 
