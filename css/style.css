@@ -156,8 +156,9 @@ html, body {
   .remove-button {
     background-color: #e74c3c;
     color: white;
+    padding: 8px 12px;
+    font-size: 0.9rem;
     border: none;
-    padding: 8px 16px;
     border-radius: 5px;
     cursor: pointer;
   }
@@ -186,6 +187,7 @@ html, body {
     font-size: 1.5rem;
     margin: 8px 0;
     font-size: 16px;
+    color: black;
   }
   
   .checkout-button {
@@ -351,16 +353,25 @@ form {
  }
  
  button {
+  padding: 8px 16px; /* smaller padding */
+  font-size: 1rem; /* normal text size */
+  background-color: #ffc220;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.big-button {
   width: 90%;
-   padding: 15px;
-   margin: 20px; 
-   background-color: #ffc220;
-   color: black;
-   font-size: 1.3rem;
-   border: none;
-   border-radius: 5px;
-   cursor: pointer;
- }
+  padding: 16px 0;
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin: 20px auto;
+  display: block;
+}
+
  
  button:hover {
    background-color: #45a049;
