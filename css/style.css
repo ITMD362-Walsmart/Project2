@@ -294,19 +294,30 @@ html, body {
 
 #slider {
   max-width: 510px;
-  margin-top: 150px, 0 auto;
+  width: 100%;
+  margin: 30px 100px 25px 355px;
   text-align: center;
-  align-items: center;
   overflow: hidden;
-  padding-bottom: 25px;
+  padding-bottom: 30px;
 }
 
 .sliderImg {
-  width: 510px;
-  height: 255px;
+  width: 100%;
+  max-width: 510px;
+  height: auto;
   object-fit: cover;
-  margin: 0 10px;
+  margin-bottom: 20px;
+  text-align: center;
+  max-height: 550px;
 }
+
+.slider-wrapper {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 
 h3 {
   text-align: center;
@@ -407,7 +418,13 @@ h1 {
 }
 
 p {
-  font-size: 2rem;
+  font-size: 1rem;
+  color: #333; /* Dark text */
+  line-height: 1.5;
+}
+
+.site-footer p,
+header p {
   color: white;
 }
 
