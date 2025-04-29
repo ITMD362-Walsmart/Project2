@@ -11,34 +11,40 @@
 <body>
     <header class="top-banner">
       <div class="container banner-flex">
-        
+
         <!-- Walmart Logo-->
       <div class="banner-middle">
         <a href="index.html">
         <img src="https://th.bing.com/th/id/R.a9afd4378751c218459c425dc849920f?rik=Nr8x6ufYzcGu1A&pid=ImgRaw&r=0" alt="Walmart Logo" class="banner-logo">
         </a>
-
-        <a href="cart.html" class="banner-link">
-            <img src="https://cdn0.iconfinder.com/data/icons/social-messaging-ui-color-shapes/128/shopping-circle-blue-512.png" alt="cart">
-            <span>Cart</span>
-        </a>
-      </div>
     </div>
   </header>
-    <h1>Sign up for exclusive deals!!</h1>
-    <p>Sign up today to get exclusive access to our beta program.</p>
-  <form id="signup-form" method="get" action="#null" autocomplete="on">
-    <label for="name">Full Name</label>
-    <input type="text" id="name" name="name" required placeholder="Enter your full name">
-    <label for="email">Email Address</label>
-    <input type="email" id="email" name="email" required placeholder="Enter your email address">
-    <label for="zip">ZIP Code</label>
-    <input type="text" id="zip" name="zip" required placeholder="00000">
-    <input type="checkbox" id="tcbox" name="tcbox" value="Terms And conditions">
-    <label for="tcbox"> I agree to the Terms and Conditions</label>
-    <button type="submit" id="submit-btn">Sign Up</button>
-  </form>
-<!--Footer-->
+
+  <main>
+    <div class="container form-container">
+      <h1>Sign up for exclusive deals!!</h1>
+      <p>Sign up today to get exclusive access to our beta program.</p>
+  
+      <form id="signup-form" method="get" action="#null" autocomplete="on">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" required placeholder="Enter your full name">
+  
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" required placeholder="Enter your email address">
+        
+        <label for="zip">ZIP Code</label>
+        <input type="text" id="zip" name="zip" required placeholder="00000">
+
+        <div class="checkbox-group">
+          <input type="checkbox" id="tcbox" name="tcbox" value="Terms And Conditions" required>
+          <label for="tcbox">I agree to the Terms and Conditions</label>
+        </div>
+  
+        <button type="submit" id="submit-btn">Sign Up</button>
+      </form>
+  
+    </div> 
+  </main>
     <footer class="site-footer">
       <div class="foot-container">
         <p>Team members: Divine Cuevas, Alastyr Bill, & Mohammad Khiyani</p>
