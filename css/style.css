@@ -294,7 +294,7 @@ html, body {
 
 #slider {
   max-width: 510px;
-  margin-top: 150px, 0 auto;
+  margin: 150px auto 0 auto; 
   text-align: center;
   align-items: center;
   overflow: hidden;
@@ -302,11 +302,13 @@ html, body {
 }
 
 .sliderImg {
-  width: 510px;
-  height: 255px;
+  width: 100%;
+  max-width: 510px;
+  height: auto;
   object-fit: cover;
-  margin: 0 10px;
+  margin-bottom: 20px;
 }
+
 
 h3 {
   text-align: center;
@@ -407,7 +409,13 @@ h1 {
 }
 
 p {
-  font-size: 2rem;
+  font-size: 1rem;
+  color: #333; /* Dark text */
+  line-height: 1.5;
+}
+
+.site-footer p,
+header p {
   color: white;
 }
 
