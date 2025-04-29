@@ -322,12 +322,6 @@ html {
   font-size: 16px;
 }
 
-body {
-  font-family: 'Devonshire', sans-serif, cursive;
-  background-color: green;
-  height: 100vh;
-}
-
 header {
   text-align: center;
   margin-bottom: 5px;
